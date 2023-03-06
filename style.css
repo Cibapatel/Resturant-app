@@ -1,0 +1,166 @@
+body{
+    background-color: rgb(233, 217, 189);
+    font-family: sans-serif;
+}
+header {
+
+color: #333;
+position: fixed;
+  top: 0;
+ 
+  width: 80%;
+  padding: 20px 9%;
+  padding-bottom: 1px;
+  background:  rgb(233, 217, 189);
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  z-index: 100;
+
+font-size: 1.2rem;
+  }
+  header img{
+    border-radius: 50%;
+  }
+ 
+  header li{
+      list-style: none;
+      display: inline-flex;
+      padding: 15px;
+      
+  }
+  header button{
+    display: inline-block;
+    padding: 8px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    background-color: orange;
+    border-radius: 25px;
+  }
+  header button:hover{
+    color: #fff;
+
+  }
+  header li a {
+      color: #333;
+      text-decoration: none;
+  }
+  
+  header li a:hover {
+      border-bottom: 1px solid rgb(152, 99, 0);
+      color:rgb(152, 99, 0);
+      display: block;
+  }
+section {
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+   display: inline-flex;
+   gap: 200px;
+   border-bottom: 1px solid orange;
+}
+section button{
+    display: inline-block;
+    padding: 8px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    background-color: orange;
+    border-radius: 25px;
+    font-size: 1.4rem;
+}
+section button:hover{
+    color: #fff;
+
+  }
+  section h1{
+    font-size: 2.4rem;
+  }
+  .Todayspecial img{
+    width: 300px;
+    border-radius: 15px;
+  }
+  .Todayspecial {
+    padding-right: 10%;
+    padding-left: 10%;
+   
+    padding-bottom: 5%;
+   display: inline-flex;
+   gap: 90px;
+   border-bottom: 1px solid orange;
+}
+
+.Todayspecial button{
+  display: inline-block;
+  padding: 8px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+  background-color: orange;
+  border-radius: 25px;
+  font-size: 1.4rem;
+}
+.Todayspecial button:hover{
+  color: #fff;
+}
+.food{
+  padding-left: 10%;
+  padding-right: 30%;
+  border-bottom: 1px solid orange;
+}
+.foodsuggestion{
+ 
+ display: inline-flex;
+
+}
+
+ .foodsuggestion li{
+list-style: none;
+padding: 15px;
+width:96.5% ;
+
+
+ }
+ .Abiutus img{
+  width: 300px;
+  border-radius: 15px;
+}
+.Aboutus {
+  padding-top: 3%;
+  padding-right: 10%;
+  padding-left: 10%;
+ 
+  padding-bottom: 5%;
+ display: inline-flex;
+ gap: 90px;
+ border-bottom: 1px solid orange;
+
+}
+.Aboutus img{
+  border-radius: 70%;
+}
+
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: -1200px;
+    background-color: #ccc;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+   width: 97.3%;
+
+  }
+
+  footer a{
+    padding: 5px;
+    color: black;
+  }
+  
