@@ -2,6 +2,7 @@ body{
     background-color: rgb(233, 217, 189);
     font-family: sans-serif;
 }
+/* header */
 header {
 
 color: #333;
@@ -53,6 +54,7 @@ font-size: 1.2rem;
       color:rgb(213, 146, 22);
       display: block;
   }
+  /* section 1 */
 section {
     padding-right: 10%;
     padding-left: 10%;
@@ -80,6 +82,8 @@ section button:hover{
   section h1{
     font-size: 2.4rem;
   }
+
+  /* section 2 */
   .Todayspecial img{
     width: 300px;
     border-radius: 15px;
@@ -108,6 +112,7 @@ section button:hover{
 .Todayspecial button:hover{
   color: #fff;
 }
+/* section 3 */
 .food{
   padding-left: 10%;
   padding-right: 30%;
@@ -126,6 +131,13 @@ padding: 15px;
   width: 250px;
   height: 170px;
 }
+div.foodsuggestion {
+  overflow-x: scroll;
+}
+div .foodsuggestion::-webkit-scrollbar{
+  display: none;
+}
+/* section 4 */
  .Aboutus img{
   width: 300px;
   border-radius: 15px;
@@ -141,23 +153,8 @@ gap: 90px;
 .Aboutus img{
   border-radius: 70%;
 }
-div.foodsuggestion {
-  overflow-x: scroll;
-}
-div .foodsuggestion::-webkit-scrollbar{
-  display: none;
-}
 
-
-
-/* div.foodsuggestion li {
-  display: inline-block;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
-} */
-
-
+/* footer */
 footer {
   position: absolute;
   left: 0;
@@ -175,4 +172,58 @@ footer {
     padding: 5px;
     color: black;
   }
-  
+  /* signup page */
+ label{
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+ }
+
+.signin{
+  display: flex;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  margin: 0;
+  justify-content: center;
+  min-height: 100vh;
+}
+.wrapper{
+  width: 605px;
+  background: #fff;
+  border-radius: 15px;
+  padding: 30px 30px 25px;
+}
+.wrapper button{
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 14px; 
+width: 100%;
+  cursor: pointer;
+  background-color: rgb(233, 217, 189);
+  border: 1px solid orange;
+}
+.wrapper button:hover{
+  color: #fff;
+  background-color: rgb(202, 138, 20);
+}
+input[type=text] ,input[type=number]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

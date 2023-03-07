@@ -1,0 +1,131 @@
+body{
+    background-color: rgb(233, 217, 189);
+}
+#wrapper{
+    background-color: #eeee;
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 6px;
+    padding: 60px;
+    overflow: hidden;
+    border: 1px solid lightgray;
+}
+
+#page-banner{
+background-size: 100%;
+align-items: center;
+padding: 10px 0;
+}
+
+#page-banner h1,
+#page-banner p{
+    width: 100%;
+    align-items: center;
+    padding: 10px 0;
+}
+#cart-list,
+#add-cart{
+    margin: 30px;
+}
+
+#cart-list ul{
+    list-style-type: none;
+    padding: 0;
+}
+#cart-list li{
+    padding: 20px;
+    border-left: 5px solid #ddd;
+    margin: 20px 10px;
+}
+#cart-list li:hover{
+border-color: orangered
+}
+.delete{
+    float: right;
+    background: red;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+.delete:hover{
+    background: maroon;
+}
+.order{
+
+    float: right;
+    background: greenyellow;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #333;
+}
+.order:hover{
+    background: green;
+    color: white;
+}
+#add-cart{
+    width: 400px;
+    margin: 0 auto;
+}
+#add-cart input {
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px soli #ccc;
+    font-size: 16px;
+    border-radius: 4px 0 0 4px;
+    box-sizing: border-box;
+    width: 300px;
+    float: left;
+    clear: both;
+}
+#add-cart button{
+
+    padding: 10px 20px;
+    font-size: 16px;
+    display: inline-block;
+    margin: 0;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 20px 0;
+    border-left: 0;
+    color:#333;
+    display: inline-block;
+    cursor: pointer;
+    background-color: rgb(233, 217, 189);
+    border: 1px solid orange;
+}
+
+    
+    #add-cart:after {
+    content: "";
+    display: block;
+    
+    clear: both;
+    }
+   
+    
+      #add-cart  button:hover{
+        color: #fff;
+        background-color: rgb(202, 138, 20);
+      }
+      input[type=text] ,input[type=number]{
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      
+      input[type=submit] {
+        width: 100%;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
