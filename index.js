@@ -1,3 +1,4 @@
+//Name - Ciba Patel 56 ET1
 var quote=[ "\“Life is uncertain. Eat dessert first.\”" + "<br>"+"- Ernestine Ulmer",
 "\“Food is symbolic of love when words are inadequate.\”" + "<br>"+"– Alan D. Wolfelt",
 "\"I know once people get connected to real food, they never change back.\""+"<br>" +"– Alice Waters",
