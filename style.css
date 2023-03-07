@@ -16,11 +16,11 @@ position: fixed;
   justify-content:space-between;
   align-items: center;
   z-index: 100;
-
 font-size: 1.2rem;
   }
   header img{
     border-radius: 50%;
+  
   }
  
   header li{
@@ -49,8 +49,8 @@ font-size: 1.2rem;
   }
   
   header li a:hover {
-      border-bottom: 1px solid rgb(152, 99, 0);
-      color:rgb(152, 99, 0);
+      border-bottom: 1px solid rgb(213, 146, 22);
+      color:rgb(213, 146, 22);
       display: block;
   }
 section {
@@ -114,49 +114,61 @@ section button:hover{
   border-bottom: 1px solid orange;
 }
 .foodsuggestion{
- 
  display: inline-flex;
-
+ width: 1200px;
 }
 
  .foodsuggestion li{
 list-style: none;
 padding: 15px;
-width:96.5% ;
-
-
  }
- .Abiutus img{
+.foodsuggestion img{
+  width: 250px;
+  height: 170px;
+}
+ .Aboutus img{
   width: 300px;
   border-radius: 15px;
 }
 .Aboutus {
-  padding-top: 3%;
-  padding-right: 10%;
-  padding-left: 10%;
- 
-  padding-bottom: 5%;
- display: inline-flex;
- gap: 90px;
- border-bottom: 1px solid orange;
+padding-top: 3%;
+padding-right: 10%;
+padding-left: 10%; 
 
+display: inline-flex;
+gap: 90px;
 }
 .Aboutus img{
   border-radius: 70%;
 }
+div.foodsuggestion {
+  overflow-x: scroll;
+}
+div .foodsuggestion::-webkit-scrollbar{
+  display: none;
+}
+
+
+
+/* div.foodsuggestion li {
+  display: inline-block;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+} */
 
 
 footer {
   position: absolute;
   left: 0;
-  bottom: -1200px;
-    background-color: #ccc;
-    color: #333;
-    padding: 20px;
-    text-align: center;
-    overflow: hidden;
-   width: 97.3%;
-
+  bottom: -1300px;
+  background-color: rgb(233, 217, 189);
+  color: #333;
+  padding: 20px;
+  text-align: center;
+  overflow: hidden;
+  width: 97.3%;
+  border-top: 1px solid orange;
   }
 
   footer a{

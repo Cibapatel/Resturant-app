@@ -10,6 +10,7 @@
     <title>Swadisht Kitchen</title>
 </head>
 <body>
+    <script src="index.js"></script>
     <header>
         <div class="logo">
             <!-- <li><img src="img/Swadisht.png" alt="" width="80px"></li> -->
@@ -19,16 +20,22 @@
         <li><a href="#">Menu</a></li>
         <li><a href="#">Add to cart</a></li> 
         <li><a href="#">Special offers</a></li>
-        <li><a href="#">Wanna read something delicious?</a></li>
+        <li><a href="#">Book your table</a></li>
     </div>
         <button>Log-in</button>
    
     </header>
     <section class="Intro">
         <div class="to-right">
-            <h1>"Let food be thy medicine and medicine be thy food."</h1>
-            <h3 >– Hippocrates.</h3>
-            <h1 style="color: rgb(118, 118, 118);">Find your Swadisht food to uplift your mood 🍕</h1>
+            <div id = "">
+            <h3 id="quotedisplay">"Let food be thy medicine and medicine be thy food."<br> - Hippocrates</br></h3>
+      
+        </div>
+            <button onclick="newQuote()" style="padding: 8px 16px;
+            font-size: 14px; border-radius: 25px;
+  ">Try Next</button>
+     
+            <h1 style="color: rgb(118, 118, 118);">Find your <span style="color: rgb(213, 146, 22); ">Swadisht</span> food to uplift your mood 🍕</h1>
             <button>Explore Now</button>
         </div>
 <div class="home">
@@ -54,9 +61,12 @@
     <div class="food">
         <h1>Food you might like</h1>
 <div class="foodsuggestion">
-    <li><img src="img/Burger.png" alt="" ><br>Burger</li>
-    <li><img src="img/Burger.png" alt="" ><br>Pizza</li>
-    <li><img src="img/Burger.png" alt="" ><br>Paneer tikka</li>
+    <li><img src="img/Manchow soup.jpg" alt="" ><br>Manchow soup</li>
+    <li><img src="img/chicken lollipop.jpg" alt="" ><br>Chicken Lollipop</li>
+    <li><img src="img/Shahi Paneer.jpg" alt="" ><br>Shahi Paneer</li>
+    <li><img src="img/icecream.jpg" alt="" ><br>Icecream</li>
+    <li><img src="img/Creamy Chocalate pudding.avif" alt="" ><br>Creamy Chocolate Pudding</li>
+    <li><img src="img/Biryani.png" alt="" ><br>Biryani</li>
     <!-- <li><img src="img/Burger.png" alt="" ><br>Khichdi</li> -->
 </div>
 </div>
