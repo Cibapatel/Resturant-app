@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function(){
     })
     list.addEventListener('click',(e)=>{
         if(e.target.className == 'order'){
-            
+            onclick=window.open('payment.html');
         }
         
     })

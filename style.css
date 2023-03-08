@@ -228,3 +228,17 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
 }
+.foodsuggestion span{
+  float: left;
+  background: orange;
+  padding: 6px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #fff;
+  width: 96.2%;
+  text-align: center;
+}
+.foodsuggestion span:hover{
+  background: rgb(210, 146, 29);
+  color: #fff;
+}
